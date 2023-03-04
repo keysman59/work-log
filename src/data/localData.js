@@ -1,345 +1,345 @@
 
 let localItems = {
-    "Engine": "1",
-    "Name": "ТВ7-117",
-    "Status": [
+    Engine: 1,
+    Name: 'ТВ7-117',
+    Status: [
         {
-            "worker": {
-                "User": null,
-                "Role": null
+            worker: {
+                User: null,
+                Role: null
             },
-            "status": "inwork",
-            "timestart": -8585237748141766396,
-            "timeend": -8585237742192272561
+            status: "inwork",
+            timestart: -8585237748141766396,
+            timeend: -8585237742192272561
         },
         {
-            "worker": {
-                "User": null,
-                "Role": null
+            worker: {
+                User: null,
+                Role: null
             },
-            "status": "stop",
-            "timestart": -8585237742192272561,
-            "timeend": -8585237742000594637
+            status: "stop",
+            timestart: -8585237742192272561,
+            timeend: -8585237742000594637
         },
         {
-            "worker": {
-                "User": null,
-                "Role": null
+            worker: {
+                User: null,
+                Role: null
             },
-            "status": "inwork",
-            "timestart": -8585237742000594637,
-            "timeend": 0
+            status: "inwork",
+            timestart: -8585237742000594637,
+            timeend: 0
         }
     ],
-    "Workers": [
+    Workers: [
         {
-            "User": "Работник 1",
-            "Role": "worker"
+            User: "Работник 1",
+            Role: Worker
         },
         {
-            "User": "Работник 2",
-            "Role": "worker"
+            User: "Работник 2",
+            Role: Worker
         },
         {
-            "User": "Проверяющий 1",
-            "Role": "specialist"
+            User: "Проверяющий 1",
+            Role: "specialist"
         }
     ],
-    "Messeges": [
+    Messeges: [
         {
-            "Type": "done",
-            "Message": "Шаг пройден",
-            "Worker": "Работник 1",
-            "Link": "openstep: 0:0:0:0:0",
-            "Time": -8585237747914705675,
-            "Misc": {
-                "ID": 0,
-                "Title": null,
-                "Description": null
+            Type: "done",
+            Message: "Шаг пройден",
+            Worker: "Работник 1",
+            Link: "openstep: 0:0:0:0:0",
+            Time: -8585237747914705675,
+            Misc: {
+                ID: 0,
+                Title: null,
+                Description: null
             }
         },
         {
-            "Type": "error",
-            "Message": "",
-            "Worker": "Работник 1",
-            "Link": "openstep: 0:0:1:0:1",
-            "Time": -8585237747700993557,
-            "Misc": {
-                "ID": 4,
-                "Title": "Ожидание документации или решения от цеха смежника",
-                "Description": "Остановка из-за невозможности продолжения сборочного/испытательного процессов из-за отсутствия решения или документации от смежных подразделений "
+            Type: "error",
+            Message: "",
+            Worker: "Работник 1",
+            Link: "openstep: 0:0:1:0:1",
+            Time: -8585237747700993557,
+            Misc: {
+                ID: 4,
+                Title: "Ожидание документации или решения от цеха смежника",
+                Description: "Остановка из-за невозможности продолжения сборочного/испытательного процессов из-за отсутствия решения или документации от смежных подразделений "
             }
         },
         {
-            "Type": "done",
-            "Message": "Шаг пройден",
-            "Worker": "Работник 1",
-            "Link": "openstep: 0:1:0:0:0",
-            "Time": -8585237747492538451,
-            "Misc": {
-                "ID": 0,
-                "Title": null,
-                "Description": null
+            Type: "done",
+            Message: "Шаг пройден",
+            Worker: "Работник 1",
+            Link: "openstep: 0:1:0:0:0",
+            Time: -8585237747492538451,
+            Misc: {
+                ID: 0,
+                Title: null,
+                Description: null
             }
         },
         {
-            "Type": "done",
-            "Message": "Шаг пройден",
-            "Worker": "Работник 1",
-            "Link": "openstep: 0:1:0:0:1",
-            "Time": -8585237747322188256,
-            "Misc": {
-                "ID": 0,
-                "Title": null,
-                "Description": null
+            Type: "done",
+            Message: "Шаг пройден",
+            Worker: "Работник 1",
+            Link: "openstep: 0:1:0:0:1",
+            Time: -8585237747322188256,
+            Misc: {
+                ID: 0,
+                Title: null,
+                Description: null
             }
         },
         {
-            "Type": "return",
-            "Message": "шаг возвращен в работу",
-            "Worker": "Работник 2",
-            "Link": "openstep: 0:0:1:0:1",
-            "Time": -8585237744967884337,
-            "Misc": {
-                "ID": 0,
-                "Title": null,
-                "Description": null
+            Type: "return",
+            Message: "шаг возвращен в работу",
+            Worker: "Работник 2",
+            Link: "openstep: 0:0:1:0:1",
+            Time: -8585237744967884337,
+            Misc: {
+                ID: 0,
+                Title: null,
+                Description: null
             }
         },
         {
-            "Type": "done",
-            "Message": "Шаг пройден",
-            "Worker": "Работник 2",
-            "Link": "openstep: 0:0:1:0:1",
-            "Time": -8585237744877694755,
-            "Misc": {
-                "ID": 0,
-                "Title": null,
-                "Description": null
+            Type: "done",
+            Message: "Шаг пройден",
+            Worker: "Работник 2",
+            Link: "openstep: 0:0:1:0:1",
+            Time: -8585237744877694755,
+            Misc: {
+                ID: 0,
+                Title: null,
+                Description: null
             }
         },
         {
-            "Type": "return",
-            "Message": "шаг возвращен в работу",
-            "Worker": "Работник 2",
-            "Link": "openstep: 0:0:0:0:0",
-            "Time": -8585237744765724927,
-            "Misc": {
-                "ID": 0,
-                "Title": null,
-                "Description": null
+            Type: "return",
+            Message: "шаг возвращен в работу",
+            Worker: "Работник 2",
+            Link: "openstep: 0:0:0:0:0",
+            Time: -8585237744765724927,
+            Misc: {
+                ID: 0,
+                Title: null,
+                Description: null
             }
         },
         {
-            "Type": "done",
-            "Message": "Шаг пройден",
-            "Worker": "Работник 2",
-            "Link": "openstep: 0:1:1:0:1",
-            "Time": -8585237742293696338,
-            "Misc": {
-                "ID": 0,
-                "Title": null,
-                "Description": null
+            Type: "done",
+            Message: "Шаг пройден",
+            Worker: "Работник 2",
+            Link: "openstep: 0:1:1:0:1",
+            Time: -8585237742293696338,
+            Misc: {
+                ID: 0,
+                Title: null,
+                Description: null
             }
         },
         {
-            "Type": "error",
-            "Message": "",
-            "Worker": "Работник 2",
-            "Link": "openstep: 0:0:1:0:0",
-            "Time": -8585237742210256832,
-            "Misc": {
-                "ID": 3,
-                "Title": "Ожидание ДСЕ (дефицит) ",
-                "Description": "Невозможность продолжения сборочного/испытательного процессов по дефициту двигателей собственного производства "
+            Type: "error",
+            Message: "",
+            Worker: "Работник 2",
+            Link: "openstep: 0:0:1:0:0",
+            Time: -8585237742210256832,
+            Misc: {
+                ID: 3,
+                Title: "Ожидание ДСЕ (дефицит) ",
+                Description: "Невозможность продолжения сборочного/испытательного процессов по дефициту двигателей собственного производства "
             }
         },
         {
-            "Type": "return",
-            "Message": "шаг возвращен в работу",
-            "Worker": "Проверяющий 1",
-            "Link": "openstep: 0:0:1:0:0",
-            "Time": -8585237742000594637,
-            "Misc": {
-                "ID": 0,
-                "Title": null,
-                "Description": null
+            Type: "return",
+            Message: "шаг возвращен в работу",
+            Worker: "Проверяющий 1",
+            Link: "openstep: 0:0:1:0:0",
+            Time: -8585237742000594637,
+            Misc: {
+                ID: 0,
+                Title: null,
+                Description: null
             }
         },
         {
-            "Type": "check",
-            "Message": "шаг проверен",
-            "Worker": "Проверяющий 1",
-            "Link": "openstep: 0:0:1:0:1",
-            "Time": -8585237741945362139,
-            "Misc": {
-                "ID": 0,
-                "Title": null,
-                "Description": null
+            Type: "check",
+            Message: "шаг проверен",
+            Worker: "Проверяющий 1",
+            Link: "openstep: 0:0:1:0:1",
+            Time: -8585237741945362139,
+            Misc: {
+                ID: 0,
+                Title: null,
+                Description: null
             }
         },
         {
-            "Type": "done",
-            "Message": "Шаг пройден",
-            "Worker": "Проверяющий 1",
-            "Link": "openstep: 0:1:1:0:0",
-            "Time": -8585237741842078932,
-            "Misc": {
-                "ID": 0,
-                "Title": null,
-                "Description": null
+            Type: "done",
+            Message: "Шаг пройден",
+            Worker: "Проверяющий 1",
+            Link: "openstep: 0:1:1:0:0",
+            Time: -8585237741842078932,
+            Misc: {
+                ID: 0,
+                Title: null,
+                Description: null
             }
         },
         {
-            "Type": "check",
-            "Message": "шаг проверен",
-            "Worker": "Проверяющий 1",
-            "Link": "openstep: 0:1:1:0:0",
-            "Time": -8585237741821452983,
-            "Misc": {
-                "ID": 0,
-                "Title": null,
-                "Description": null
+            Type: "check",
+            Message: "шаг проверен",
+            Worker: "Проверяющий 1",
+            Link: "openstep: 0:1:1:0:0",
+            Time: -8585237741821452983,
+            Misc: {
+                ID: 0,
+                Title: null,
+                Description: null
             }
         },
         {
-            "Type": "return",
-            "Message": "шаг возвращен в работу",
-            "Worker": "Проверяющий 1",
-            "Link": "openstep: 0:1:0:0:1",
-            "Time": -8585237741740460226,
-            "Misc": {
-                "ID": 0,
-                "Title": null,
-                "Description": null
+            Type: "return",
+            Message: "шаг возвращен в работу",
+            Worker: "Проверяющий 1",
+            Link: "openstep: 0:1:0:0:1",
+            Time: -8585237741740460226,
+            Misc: {
+                ID: 0,
+                Title: null,
+                Description: null
             }
         },
         {
-            "Type": "done",
-            "Message": "Шаг пройден",
-            "Worker": "Проверяющий 1",
-            "Link": "openstep: 0:0:0:0:0",
-            "Time": -8585237741683958624,
-            "Misc": {
-                "ID": 0,
-                "Title": null,
-                "Description": null
+            Type: "done",
+            Message: "Шаг пройден",
+            Worker: "Проверяющий 1",
+            Link: "openstep: 0:0:0:0:0",
+            Time: -8585237741683958624,
+            Misc: {
+                ID: 0,
+                Title: null,
+                Description: null
             }
         }
     ],
-    "StopsCount": 0,
-    "FailureCount": 0,
-    "Chapters": [
+    StopsCount: 0,
+    FailureCount: 0,
+    Chapters: [
         {
-            "Name": "Сборка на ПИ",
-            "Status": [
+            Name: "Сборка на ПИ",
+            Status: [
                 {
-                    "worker": {
-                        "User": "Работник 1",
-                        "Role": "worker"
+                    Worker: {
+                        User: "Работник 1",
+                        Role: 'Worker'
                     },
-                    "status": "inwork",
-                    "timestart": -8585237748141766396,
-                    "timeend": -8585237742192272561
+                    Status: "inwork",
+                    timestart: -8585237748141766396,
+                    timeend: -8585237742192272561
                 },
                 {
-                    "worker": {
-                        "User": "Работник 2",
-                        "Role": "worker"
+                    Worker: {
+                        User: "Работник 2",
+                        Role: 'Worker'
                     },
-                    "status": "stop",
-                    "timestart": -8585237742192272561,
-                    "timeend": -8585237742000594637
+                    Status: "stop",
+                    timestart: -8585237742192272561,
+                    timeend: -8585237742000594637
                 },
                 {
-                    "worker": {
-                        "User": "Работник 2",
-                        "Role": "worker"
+                    Worker: {
+                        User: "Работник 2",
+                        Role: 'Worker'
                     },
-                    "status": "inwork",
-                    "timestart": -8585237742000594637,
-                    "timeend": 0
+                    Status: "inwork",
+                    timestart: -8585237742000594637,
+                    timeend: 0
                 }
             ],
             "Stages": [
                 {
-                    "Name": "Этап 1. Сборка осевого компрессора",
-                    "Failure": 0,
-                    "Stops": 0,
-                    "Status": [
+                    Name: "Этап 1. Сборка осевого компрессора",
+                    Failure: 0,
+                    Stops: 0,
+                    Status: [
                         {
-                            "worker": {
-                                "User": "Работник 1",
-                                "Role": "worker"
+                            Worker: {
+                                User: "Работник 1",
+                                Role: 'Worker'
                             },
-                            "status": "inwork",
-                            "timestart": -8585237748141766396,
-                            "timeend": 0
+                            Status: "inwork",
+                            timestart: -8585237748141766396,
+                            timeend: 0
                         }
                     ],
-                    "Operations": [
+                    Operations: [
                         {
-                            "Name": "5 - Подготовка к сборке",
-                            "Tag": "Операция 5",
-                            "Failure": 0,
-                            "Stops": 0,
-                            "Status": [
+                            Name: "5 - Подготовка к сборке",
+                            Tag: "Операция 5",
+                            Failure: 0,
+                            Stops: 0,
+                            Status: [
                                 {
-                                    "worker": {
-                                        "User": "Работник 1",
-                                        "Role": "worker"
+                                    Worker: {
+                                        User: "Работник 1",
+                                        Role: 'Worker'
                                     },
-                                    "status": "inwork",
-                                    "timestart": -8585237748141766396,
-                                    "timeend": 0
+                                    Status: "inwork",
+                                    timestart: -8585237748141766396,
+                                    timeend: 0
                                 }
                             ],
-                            "Steps": [
+                            Steps: [
                                 {
-                                    "Name": "Operation 5_1",
-                                    "Tag": "Операция 5",
-                                    "Failure": 0,
-                                    "Stops": 0,
-                                    "Status": [
+                                    Name: "Operation 5_1",
+                                    Tag: "Операция 5",
+                                    Failure: 0,
+                                    Stops: 0,
+                                    Status: [
                                         {
-                                            "worker": {
-                                                "User": "Работник 1",
-                                                "Role": "worker"
+                                            Worker: {
+                                                User: "Работник 1",
+                                                Role: Worker
                                             },
-                                            "status": "inwork",
-                                            "timestart": -8585237748141766396,
-                                            "timeend": -8585237747914745678
+                                            Status: "inwork",
+                                            timestart: -8585237748141766396,
+                                            timeend: -8585237747914745678
                                         },
                                         {
-                                            "worker": {
-                                                "User": "Работник 1",
-                                                "Role": "worker"
+                                            Worker: {
+                                                User: "Работник 1",
+                                                Role: Worker
                                             },
-                                            "status": "done",
-                                            "timestart": -8585237747914745678,
-                                            "timeend": -8585237744765724927
+                                            Status: "done",
+                                            timestart: -8585237747914745678,
+                                            timeend: -8585237744765724927
                                         },
                                         {
-                                            "worker": {
-                                                "User": "Работник 2",
-                                                "Role": "worker"
+                                            Worker: {
+                                                User: "Работник 2",
+                                                Role: Worker
                                             },
-                                            "status": "inwork",
-                                            "timestart": -8585237744765724927,
-                                            "timeend": -8585237741683998635
+                                            Status: "inwork",
+                                            timestart: -8585237744765724927,
+                                            timeend: -8585237741683998635
                                         },
                                         {
-                                            "worker": {
-                                                "User": "Проверяющий 1",
-                                                "Role": "specialist"
+                                            Worker: {
+                                                User: "Проверяющий 1",
+                                                Role: "specialist"
                                             },
-                                            "status": "done",
-                                            "timestart": -8585237741683998635,
-                                            "timeend": 0
+                                            Status: "done",
+                                            timestart: -8585237741683998635,
+                                            timeend: 0
                                         }
                                     ],
-                                    "Fields": null,
-                                    "Notes": [
+                                    Fields: null,
+                                    Notes: [
                                         {
                                             "StartTime": -8585237748141766396,
                                             "Text": {
@@ -396,23 +396,23 @@ let localItems = {
                                     ]
                                 },
                                 {
-                                    "Name": "Operation 5_2",
-                                    "Tag": "Операция 5",
-                                    "Failure": 0,
-                                    "Stops": 0,
-                                    "Status": [
+                                    Name: "Operation 5_2",
+                                    Tag: "Операция 5",
+                                    Failure: 0,
+                                    Stops: 0,
+                                    Status: [
                                         {
-                                            "worker": {
-                                                "User": "Работник 1",
-                                                "Role": "worker"
+                                            Worker: {
+                                                User: "Работник 1",
+                                                Role: Worker
                                             },
-                                            "status": "inwork",
-                                            "timestart": -8585237747885257179,
-                                            "timeend": 0
+                                            Status: "inwork",
+                                            timestart: -8585237747885257179,
+                                            timeend: 0
                                         }
                                     ],
-                                    "Fields": null,
-                                    "Notes": [
+                                    Fields: null,
+                                    Notes: [
                                         {
                                             "StartTime": -8585237747885257179,
                                             "Text": {
@@ -438,144 +438,144 @@ let localItems = {
                                     ]
                                 }
                             ],
-                            "LastStatus": "inwork"
+                            LastStatus: "inwork"
                         }
                     ],
-                    "LastStatus": "inwork"
+                    LastStatus: "inwork"
                 },
                 {
-                    "Name": "Этап 2. Сборка ТКВД",
-                    "Failure": 1,
-                    "Stops": 1,
-                    "Status": [
+                    Name: "Этап 2. Сборка ТКВД",
+                    Failure: 1,
+                    Stops: 1,
+                    Status: [
                         {
-                            "worker": {
-                                "User": "Работник 1",
-                                "Role": "worker"
+                            Worker: {
+                                User: "Работник 1",
+                                Role: 'Worker'
                             },
-                            "status": "inwork",
-                            "timestart": -8585237747737822620,
-                            "timeend": 0
+                            Status: "inwork",
+                            timestart: -8585237747737822620,
+                            timeend: 0
                         }
                     ],
-                    "Operations": [
+                    Operations: [
                         {
-                            "Name": "5 - Подготовка к сборке",
-                            "Tag": "Операция 5",
-                            "Failure": 1,
-                            "Stops": 1,
-                            "Status": [
+                            Name: "5 - Подготовка к сборке",
+                            Tag: "Операция 5",
+                            Failure: 1,
+                            Stops: 1,
+                            Status: [
                                 {
-                                    "worker": {
-                                        "User": "Работник 1",
-                                        "Role": "worker"
+                                    Worker: {
+                                        User: "Работник 1",
+                                        Role: 'Worker'
                                     },
-                                    "status": "inwork",
-                                    "timestart": -8585237747737822620,
-                                    "timeend": 0
+                                    Status: "inwork",
+                                    timestart: -8585237747737822620,
+                                    timeend: 0
                                 }
                             ],
-                            "Steps": [
+                            Steps: [
                                 {
-                                    "Name": "Operation 5_3",
-                                    "Tag": "Операция 5",
-                                    "Failure": 0,
-                                    "Stops": 1,
-                                    "Status": [
+                                    Name: "Operation 5_3",
+                                    Tag: "Операция 5",
+                                    Failure: 0,
+                                    Stops: 1,
+                                    Status: [
                                         {
-                                            "worker": {
-                                                "User": "Работник 2",
-                                                "Role": "worker"
+                                            Worker: {
+                                                User: "Работник 2",
+                                                Role: Worker
                                             },
-                                            "status": "inwork",
-                                            "timestart": -8585237742238531220,
-                                            "timeend": -8585237742192272561
+                                            Status: "inwork",
+                                            timestart: -8585237742238531220,
+                                            timeend: -8585237742192272561
                                         },
                                         {
-                                            "worker": {
-                                                "User": "Работник 2",
-                                                "Role": "worker"
+                                            Worker: {
+                                                User: "Работник 2",
+                                                Role: Worker
                                             },
-                                            "status": "stop",
-                                            "timestart": -8585237742192272561,
-                                            "timeend": -8585237742000594637
+                                            Status: "stop",
+                                            timestart: -8585237742192272561,
+                                            timeend: -8585237742000594637
                                         },
                                         {
-                                            "worker": {
-                                                "User": "Работник 2",
-                                                "Role": "worker"
+                                            Worker: {
+                                                User: "Работник 2",
+                                                Role: Worker
                                             },
-                                            "status": "failure",
-                                            "timestart": -8585237742000594637,
-                                            "timeend": -8585237742000544624
+                                            Status: Failure,
+                                            timestart: -8585237742000594637,
+                                            timeend: -8585237742000544624
                                         },
                                         {
-                                            "worker": {
-                                                "User": "Работник 2",
-                                                "Role": "worker"
+                                            Worker: {
+                                                User: "Работник 2",
+                                                Role: Worker
                                             },
-                                            "status": "inwork",
-                                            "timestart": -8585237742000544624,
-                                            "timeend": 0
+                                            Status: "inwork",
+                                            timestart: -8585237742000544624,
+                                            timeend: 0
                                         }
                                     ],
-                                    "Fields": null,
-                                    "Notes": []
+                                    Fields: null,
+                                    Notes: []
                                 },
                                 {
-                                    "Name": "Operation 5_4",
-                                    "Tag": "Операция 5",
-                                    "Failure": 1,
-                                    "Stops": 0,
-                                    "Status": [
+                                    Name: "Operation 5_4",
+                                    Tag: "Операция 5",
+                                    Failure: 1,
+                                    Stops: 0,
+                                    Status: [
                                         {
-                                            "worker": {
-                                                "User": "Работник 1",
-                                                "Role": "worker"
+                                            Worker: {
+                                                User: "Работник 1",
+                                                Role: Worker
                                             },
-                                            "status": "inwork",
-                                            "timestart": -8585237747737822620,
-                                            "timeend": -8585237747683972238
+                                            Status: "inwork",
+                                            timestart: -8585237747737822620,
+                                            timeend: -8585237747683972238
                                         },
                                         {
-                                            "worker": {
-                                                "User": "Работник 1",
-                                                "Role": "worker"
+                                            Worker: {
+                                                User: "Работник 1",
+                                                Role: Worker
                                             },
-                                            "status": "failure",
-                                            "timestart": -8585237747683972238,
-                                            "timeend": -8585237744967884337
+                                            Status: Failure,
+                                            timestart: -8585237747683972238,
+                                            timeend: -8585237744967884337
                                         },
                                         {
-                                            "worker": {
-                                                "User": "Работник 1",
-                                                "Role": "worker"
+                                            Worker: {
+                                                User: "Работник 1",
+                                                Role: Worker
                                             },
-                                            "status": "inwork",
-                                            "timestart": -8585237744967884337,
-                                            "timeend": -8585237744877734757
+                                            Status: "inwork",
+                                            timestart: -8585237744967884337,
+                                            timeend: -8585237744877734757
                                         },
                                         {
-                                            "worker": {
-                                                "User": "Работник 2",
-                                                "Role": "worker"
+                                            Worker: {
+                                                User: "Работник 2",
+                                                Role: Worker
                                             },
-                                            "status": "done",
-                                            "timestart": -8585237744877734757,
-                                            "timeend": -8585237741945362139
+                                            Status: "done",
+                                            timestart: -8585237744877734757,
+                                            timeend: -8585237741945362139
                                         },
                                         {
-                                            "worker": {
-                                                "User": "Работник 2",
-                                                "Role": "worker"
+                                            Worker: {
+                                                User: "Работник 2",
+                                                Role: Worker
                                             },
-                                            "status": "check",
-                                            "timestart": -8585237741945362139,
-                                            "timeend": 0
+                                            Status: "check",
+                                            timestart: -8585237741945362139,
+                                            timeend: 0
                                         }
                                     ],
-                                    "Fields": null,
-                                    "Notes": [
+                                    Fields: null,
+                                    Notes: [
                                         {
                                             "StartTime": -8585237744967884337,
                                             "Text": {
@@ -601,407 +601,407 @@ let localItems = {
                                     ]
                                 }
                             ],
-                            "LastStatus": "inwork"
+                            LastStatus: "inwork"
                         }
                     ],
-                    "LastStatus": "inwork"
+                    LastStatus: "inwork"
                 }
             ],
-            "LastStatus": "inwork"
+            LastStatus: "inwork"
         },
         {
-            "Name": "Сборка на ПСИ",
-            "Status": [
+            Name: "Сборка на ПСИ",
+            Status: [
                 {
-                    "worker": {
-                        "User": "Работник 1",
-                        "Role": "worker"
+                    Worker: {
+                        User: "Работник 1",
+                        Role: Worker
                     },
-                    "status": "inwork",
-                    "timestart": -8585237747503830973,
-                    "timeend": -8585237741821452983
+                    Status: "inwork",
+                    timestart: -8585237747503830973,
+                    timeend: -8585237741821452983
                 },
                 {
-                    "worker": {
-                        "User": "Проверяющий 1",
-                        "Role": "specialist"
+                    Worker: {
+                        User: "Проверяющий 1",
+                        Role: "specialist"
                     },
-                    "status": "check",
-                    "timestart": -8585237741821452983,
-                    "timeend": -8585237741740460226
+                    Status: "check",
+                    timestart: -8585237741821452983,
+                    timeend: -8585237741740460226
                 },
                 {
-                    "worker": {
-                        "User": "Проверяющий 1",
-                        "Role": "specialist"
+                    Worker: {
+                        User: "Проверяющий 1",
+                        Role: "specialist"
                     },
-                    "status": "inwork",
-                    "timestart": -8585237741740460226,
-                    "timeend": 0
+                    Status: "inwork",
+                    timestart: -8585237741740460226,
+                    timeend: 0
                 }
             ],
             "Stages": [
                 {
-                    "Name": "Этап 1.  Сборка осевого компрессора",
-                    "Failure": 0,
-                    "Stops": 0,
-                    "Status": [
+                    Name: "Этап 1.  Сборка осевого компрессора",
+                    Failure: 0,
+                    Stops: 0,
+                    Status: [
                         {
-                            "worker": {
-                                "User": "Работник 1",
-                                "Role": "worker"
+                            Worker: {
+                                User: "Работник 1",
+                                Role: Worker
                             },
-                            "status": "inwork",
-                            "timestart": -8585237747503830973,
-                            "timeend": -8585237741891291095
+                            Status: "inwork",
+                            timestart: -8585237747503830973,
+                            timeend: -8585237741891291095
                         },
                         {
-                            "worker": {
-                                "User": "Проверяющий 1",
-                                "Role": "specialist"
+                            Worker: {
+                                User: "Проверяющий 1",
+                                Role: "specialist"
                             },
-                            "status": "check",
-                            "timestart": -8585237741891291095,
-                            "timeend": -8585237741740460226
+                            Status: "check",
+                            timestart: -8585237741891291095,
+                            timeend: -8585237741740460226
                         },
                         {
-                            "worker": {
-                                "User": "Проверяющий 1",
-                                "Role": "specialist"
+                            Worker: {
+                                User: "Проверяющий 1",
+                                Role: "specialist"
                             },
-                            "status": "inwork",
-                            "timestart": -8585237741740460226,
-                            "timeend": 0
+                            Status: "inwork",
+                            timestart: -8585237741740460226,
+                            timeend: 0
                         }
                     ],
-                    "Operations": [
+                    Operations: [
                         {
-                            "Name": "5 - Подготовка к сборке",
-                            "Tag": "Операция 5",
-                            "Failure": 0,
-                            "Stops": 0,
-                            "Status": [
+                            Name: "5 - Подготовка к сборке",
+                            Tag: "Операция 5",
+                            Failure: 0,
+                            Stops: 0,
+                            Status: [
                                 {
-                                    "worker": {
-                                        "User": "Работник 1",
-                                        "Role": "worker"
+                                    Worker: {
+                                        User: "Работник 1",
+                                        Role: Worker
                                     },
-                                    "status": "inwork",
-                                    "timestart": -8585237747503830973,
-                                    "timeend": -8585237747322238257
+                                    Status: "inwork",
+                                    timestart: -8585237747503830973,
+                                    timeend: -8585237747322238257
                                 },
                                 {
-                                    "worker": {
-                                        "User": "Работник 1",
-                                        "Role": "worker"
+                                    Worker: {
+                                        User: "Работник 1",
+                                        Role: Worker
                                     },
-                                    "status": "done",
-                                    "timestart": -8585237747322238257,
-                                    "timeend": -8585237741891291095
+                                    Status: "done",
+                                    timestart: -8585237747322238257,
+                                    timeend: -8585237741891291095
                                 },
                                 {
-                                    "worker": {
-                                        "User": "Проверяющий 1",
-                                        "Role": "specialist"
+                                    Worker: {
+                                        User: "Проверяющий 1",
+                                        Role: "specialist"
                                     },
-                                    "status": "check",
-                                    "timestart": -8585237741891291095,
-                                    "timeend": -8585237741740460226
+                                    Status: "check",
+                                    timestart: -8585237741891291095,
+                                    timeend: -8585237741740460226
                                 },
                                 {
-                                    "worker": {
-                                        "User": "Проверяющий 1",
-                                        "Role": "specialist"
+                                    Worker: {
+                                        User: "Проверяющий 1",
+                                        Role: "specialist"
                                     },
-                                    "status": "inwork",
-                                    "timestart": -8585237741740460226,
-                                    "timeend": 0
+                                    Status: "inwork",
+                                    timestart: -8585237741740460226,
+                                    timeend: 0
                                 }
                             ],
-                            "Steps": [
+                            Steps: [
                                 {
-                                    "Name": "Operation 5_2",
-                                    "Tag": "Операция 5",
-                                    "Failure": 0,
-                                    "Stops": 0,
-                                    "Status": [
+                                    Name: "Operation 5_2",
+                                    Tag: "Операция 5",
+                                    Failure: 0,
+                                    Stops: 0,
+                                    Status: [
                                         {
-                                            "worker": {
-                                                "User": "Работник 1",
-                                                "Role": "worker"
+                                            Worker: {
+                                                User: "Работник 1",
+                                                Role: Worker
                                             },
-                                            "status": "inwork",
-                                            "timestart": -8585237747503830973,
-                                            "timeend": -8585237747492578460
+                                            Status: "inwork",
+                                            timestart: -8585237747503830973,
+                                            timeend: -8585237747492578460
                                         },
                                         {
-                                            "worker": {
-                                                "User": "Работник 1",
-                                                "Role": "worker"
+                                            Worker: {
+                                                User: "Работник 1",
+                                                Role: Worker
                                             },
-                                            "status": "done",
-                                            "timestart": -8585237747492578460,
-                                            "timeend": -8585237741891311098
+                                            Status: "done",
+                                            timestart: -8585237747492578460,
+                                            timeend: -8585237741891311098
                                         },
                                         {
-                                            "worker": {
-                                                "User": "Проверяющий 1",
-                                                "Role": "specialist"
+                                            Worker: {
+                                                User: "Проверяющий 1",
+                                                Role: "specialist"
                                             },
-                                            "status": "check",
-                                            "timestart": -8585237741891311098,
-                                            "timeend": 0
+                                            Status: "check",
+                                            timestart: -8585237741891311098,
+                                            timeend: 0
                                         }
                                     ],
-                                    "Fields": null,
-                                    "Notes": []
+                                    Fields: null,
+                                    Notes: []
                                 },
                                 {
-                                    "Name": "Operation 5_3",
-                                    "Tag": "Операция 5",
-                                    "Failure": 0,
-                                    "Stops": 0,
-                                    "Status": [
+                                    Name: "Operation 5_3",
+                                    Tag: "Операция 5",
+                                    Failure: 0,
+                                    Stops: 0,
+                                    Status: [
                                         {
-                                            "worker": {
-                                                "User": "Работник 1",
-                                                "Role": "worker"
+                                            Worker: {
+                                                User: "Работник 1",
+                                                Role: Worker
                                             },
-                                            "status": "inwork",
-                                            "timestart": -8585237747332160494,
-                                            "timeend": -8585237747322238257
+                                            Status: "inwork",
+                                            timestart: -8585237747332160494,
+                                            timeend: -8585237747322238257
                                         },
                                         {
-                                            "worker": {
-                                                "User": "Работник 1",
-                                                "Role": "worker"
+                                            Worker: {
+                                                User: "Работник 1",
+                                                Role: Worker
                                             },
-                                            "status": "done",
-                                            "timestart": -8585237747322238257,
-                                            "timeend": -8585237741891291095
+                                            Status: "done",
+                                            timestart: -8585237747322238257,
+                                            timeend: -8585237741891291095
                                         },
                                         {
-                                            "worker": {
-                                                "User": "Проверяющий 1",
-                                                "Role": "specialist"
+                                            Worker: {
+                                                User: "Проверяющий 1",
+                                                Role: "specialist"
                                             },
-                                            "status": "check",
-                                            "timestart": -8585237741891291095,
-                                            "timeend": -8585237741740460226
+                                            Status: "check",
+                                            timestart: -8585237741891291095,
+                                            timeend: -8585237741740460226
                                         },
                                         {
-                                            "worker": {
-                                                "User": "Проверяющий 1",
-                                                "Role": "specialist"
+                                            Worker: {
+                                                User: "Проверяющий 1",
+                                                Role: "specialist"
                                             },
-                                            "status": "inwork",
-                                            "timestart": -8585237741740460226,
-                                            "timeend": 0
+                                            Status: "inwork",
+                                            timestart: -8585237741740460226,
+                                            timeend: 0
                                         }
                                     ],
-                                    "Fields": null,
-                                    "Notes": []
+                                    Fields: null,
+                                    Notes: []
                                 }
                             ],
-                            "LastStatus": "inwork"
+                            LastStatus: "inwork"
                         }
                     ],
-                    "LastStatus": "inwork"
+                    LastStatus: "inwork"
                 },
                 {
-                    "Name": "Этап 2. Сборка ТКВД",
-                    "Failure": 0,
-                    "Stops": 0,
-                    "Status": [
+                    Name: "Этап 2. Сборка ТКВД",
+                    Failure: 0,
+                    Stops: 0,
+                    Status: [
                         {
-                            "worker": {
-                                "User": "Работник 1",
-                                "Role": "worker"
+                            Worker: {
+                                User: "Работник 1",
+                                Role: Worker
                             },
-                            "status": "inwork",
-                            "timestart": -8585237745187374695,
-                            "timeend": -8585237741821452983
+                            Status: "inwork",
+                            timestart: -8585237745187374695,
+                            timeend: -8585237741821452983
                         },
                         {
-                            "worker": {
-                                "User": "Проверяющий 1",
-                                "Role": "specialist"
+                            Worker: {
+                                User: "Проверяющий 1",
+                                Role: "specialist"
                             },
-                            "status": "check",
-                            "timestart": -8585237741821452983,
-                            "timeend": 0
+                            Status: "check",
+                            timestart: -8585237741821452983,
+                            timeend: 0
                         }
                     ],
-                    "Operations": [
+                    Operations: [
                         {
-                            "Name": "5 - Подготовка к сборке",
-                            "Tag": "Операция 5",
-                            "Failure": 0,
-                            "Stops": 0,
-                            "Status": [
+                            Name: "5 - Подготовка к сборке",
+                            Tag: "Операция 5",
+                            Failure: 0,
+                            Stops: 0,
+                            Status: [
                                 {
-                                    "worker": {
-                                        "User": "Работник 1",
-                                        "Role": "worker"
+                                    Worker: {
+                                        User: "Работник 1",
+                                        Role: Worker
                                     },
-                                    "status": "inwork",
-                                    "timestart": -8585237745187374695,
-                                    "timeend": -8585237741842118940
+                                    Status: "inwork",
+                                    timestart: -8585237745187374695,
+                                    timeend: -8585237741842118940
                                 },
                                 {
-                                    "worker": {
-                                        "User": "Проверяющий 1",
-                                        "Role": "specialist"
+                                    Worker: {
+                                        User: "Проверяющий 1",
+                                        Role: "specialist"
                                     },
-                                    "status": "done",
-                                    "timestart": -8585237741842118940,
-                                    "timeend": -8585237741821452983
+                                    Status: "done",
+                                    timestart: -8585237741842118940,
+                                    timeend: -8585237741821452983
                                 },
                                 {
-                                    "worker": {
-                                        "User": "Проверяющий 1",
-                                        "Role": "specialist"
+                                    Worker: {
+                                        User: "Проверяющий 1",
+                                        Role: "specialist"
                                     },
-                                    "status": "check",
-                                    "timestart": -8585237741821452983,
-                                    "timeend": 0
+                                    Status: "check",
+                                    timestart: -8585237741821452983,
+                                    timeend: 0
                                 }
                             ],
-                            "Steps": [
+                            Steps: [
                                 {
-                                    "Name": "Operation 5_1",
-                                    "Tag": "Операция 5",
-                                    "Failure": 0,
-                                    "Stops": 0,
-                                    "Status": [
+                                    Name: "Operation 5_1",
+                                    Tag: "Операция 5",
+                                    Failure: 0,
+                                    Stops: 0,
+                                    Status: [
                                         {
-                                            "worker": {
-                                                "User": "Работник 1",
-                                                "Role": "worker"
+                                            Worker: {
+                                                User: "Работник 1",
+                                                Role: Worker
                                             },
-                                            "status": "inwork",
-                                            "timestart": -8585237745187374695,
-                                            "timeend": -8585237741842118940
+                                            Status: "inwork",
+                                            timestart: -8585237745187374695,
+                                            timeend: -8585237741842118940
                                         },
                                         {
-                                            "worker": {
-                                                "User": "Проверяющий 1",
-                                                "Role": "specialist"
+                                            Worker: {
+                                                User: "Проверяющий 1",
+                                                Role: "specialist"
                                             },
-                                            "status": "done",
-                                            "timestart": -8585237741842118940,
-                                            "timeend": -8585237741821452983
+                                            Status: "done",
+                                            timestart: -8585237741842118940,
+                                            timeend: -8585237741821452983
                                         },
                                         {
-                                            "worker": {
-                                                "User": "Проверяющий 1",
-                                                "Role": "specialist"
+                                            Worker: {
+                                                User: "Проверяющий 1",
+                                                Role: "specialist"
                                             },
-                                            "status": "check",
-                                            "timestart": -8585237741821452983,
-                                            "timeend": 0
+                                            Status: "check",
+                                            timestart: -8585237741821452983,
+                                            timeend: 0
                                         }
                                     ],
-                                    "Fields": null,
-                                    "Notes": []
+                                    Fields: null,
+                                    Notes: []
                                 },
                                 {
-                                    "Name": "Operation 5_4",
-                                    "Tag": "Операция 5",
-                                    "Failure": 0,
-                                    "Stops": 0,
-                                    "Status": [
+                                    Name: "Operation 5_4",
+                                    Tag: "Операция 5",
+                                    Failure: 0,
+                                    Stops: 0,
+                                    Status: [
                                         {
-                                            "worker": {
-                                                "User": "Работник 2",
-                                                "Role": "worker"
+                                            Worker: {
+                                                User: "Работник 2",
+                                                Role: Worker
                                             },
-                                            "status": "inwork",
-                                            "timestart": -8585237742299949484,
-                                            "timeend": -8585237742293746344
+                                            Status: "inwork",
+                                            timestart: -8585237742299949484,
+                                            timeend: -8585237742293746344
                                         },
                                         {
-                                            "worker": {
-                                                "User": "Работник 2",
-                                                "Role": "worker"
+                                            Worker: {
+                                                User: "Работник 2",
+                                                Role: Worker
                                             },
-                                            "status": "done",
-                                            "timestart": -8585237742293746344,
-                                            "timeend": -8585237741891271082
+                                            Status: "done",
+                                            timestart: -8585237742293746344,
+                                            timeend: -8585237741891271082
                                         },
                                         {
-                                            "worker": {
-                                                "User": "Проверяющий 1",
-                                                "Role": "specialist"
+                                            Worker: {
+                                                User: "Проверяющий 1",
+                                                Role: "specialist"
                                             },
-                                            "status": "check",
-                                            "timestart": -8585237741891271082,
-                                            "timeend": 0
+                                            Status: "check",
+                                            timestart: -8585237741891271082,
+                                            timeend: 0
                                         }
                                     ],
-                                    "Fields": null,
-                                    "Notes": []
+                                    Fields: null,
+                                    Notes: []
                                 }
                             ],
-                            "LastStatus": "check"
+                            LastStatus: "check"
                         }
                     ],
-                    "LastStatus": "check"
+                    LastStatus: "check"
                 }
             ],
-            "LastStatus": "inwork"
+            LastStatus: "inwork"
         }
     ],
-    "Fields": [],
+    Fields: [],
     "CurChapterIndex": 1,
     "CurStageIndex": 1,
     "CurOperationIndex": 0,
     "CurStepIndex": 0,
     "CurentStep": {
-        "Name": "Operation 5_1",
-        "Tag": "Операция 5",
-        "Failure": 0,
-        "Stops": 0,
-        "Status": [
+        Name: "Operation 5_1",
+        Tag: "Операция 5",
+        Failure: 0,
+        Stops: 0,
+        Status: [
             {
-                "worker": {
-                    "User": "Работник 1",
-                    "Role": "worker"
+                Worker: {
+                    User: "Работник 1",
+                    Role: Worker
                 },
-                "status": "inwork",
-                "timestart": -8585237748141766396,
-                "timeend": -8585237747914745678
+                Status: "inwork",
+                timestart: -8585237748141766396,
+                timeend: -8585237747914745678
             },
             {
-                "worker": {
-                    "User": "Работник 1",
-                    "Role": "worker"
+                Worker: {
+                    User: "Работник 1",
+                    Role: Worker
                 },
-                "status": "done",
-                "timestart": -8585237747914745678,
-                "timeend": -8585237744765724927
+                Status: "done",
+                timestart: -8585237747914745678,
+                timeend: -8585237744765724927
             },
             {
-                "worker": {
-                    "User": "Работник 2",
-                    "Role": "worker"
+                Worker: {
+                    User: "Работник 2",
+                    Role: Worker
                 },
-                "status": "inwork",
-                "timestart": -8585237744765724927,
-                "timeend": -8585237741683998635
+                Status: "inwork",
+                timestart: -8585237744765724927,
+                timeend: -8585237741683998635
             },
             {
-                "worker": {
-                    "User": "Проверяющий 1",
-                    "Role": "specialist"
+                Worker: {
+                    User: "Проверяющий 1",
+                    Role: "specialist"
                 },
-                "status": "done",
-                "timestart": -8585237741683998635,
-                "timeend": 0
+                Status: "done",
+                timestart: -8585237741683998635,
+                timeend: 0
             }
         ],
-        "Fields": null,
-        "Notes": [
+        Fields: null,
+        Notes: [
             {
                 "StartTime": -8585237748141766396,
                 "Text": {
@@ -1057,13 +1057,13 @@ let localItems = {
             }
         ]
     },
-    "LastStatus": "inwork",
+    LastStatus: "inwork",
     "LastWorker": "Проверяющий 1",
     "LastWorkerRole": "specialist",
     "LastError": {
-        "ID": 3,
-        "Title": "Ожидание ДСЕ (дефицит) ",
-        "Description": "Невозможность продолжения сборочного/испытательного процессов по дефициту двигателей собственного производства "
+        ID: 3,
+        Title: "Ожидание ДСЕ (дефицит) ",
+        Description: "Невозможность продолжения сборочного/испытательного процессов по дефициту двигателей собственного производства "
     }
 }
 

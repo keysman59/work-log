@@ -10,12 +10,18 @@ import Table from './components/Table'
 import { localItems } from './data/localData.js'
 
 export default {
+  name: 'app',
   components: { Table },
   data() {
     return {
-      items: localItems
+      items: localItems,
+      newItems: null
     }
   },
+  mounted() {
+    this.newItems = JSON.parse(`'"'+${this.items}`+'"')
+    console.log(this.newItems)
+  }
 }
 
 </script>
