@@ -1,7 +1,11 @@
 <template>
   <div id="app" class="app">
     <Table></Table>
-    {{  items  }}
+    <!-- {{  items  }} -->
+    <div v-for="item in items.Chapters" :key="item.name">
+      {{ item.Name }}
+    </div>
+
   </div>
 </template>
 
@@ -17,10 +21,6 @@ export default {
       items: localItems,
       newItems: null
     }
-  },
-  mounted() {
-    this.newItems = JSON.parse(`'"'+${this.items}`+'"')
-    console.log(this.newItems)
   }
 }
 

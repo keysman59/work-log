@@ -34,11 +34,11 @@ let localItems = {
     Workers: [
         {
             User: "Работник 1",
-            Role: Worker
+            Role: 'Worker'
         },
         {
             User: "Работник 2",
-            Role: Worker
+            Role: 'Worker'
         },
         {
             User: "Проверяющий 1",
@@ -261,7 +261,7 @@ let localItems = {
                     timeend: 0
                 }
             ],
-            "Stages": [
+            Stages: [
                 {
                     Name: "Этап 1. Сборка осевого компрессора",
                     Failure: 0,
@@ -304,7 +304,7 @@ let localItems = {
                                         {
                                             Worker: {
                                                 User: "Работник 1",
-                                                Role: Worker
+                                                Role: 'Worker'
                                             },
                                             Status: "inwork",
                                             timestart: -8585237748141766396,
@@ -313,7 +313,7 @@ let localItems = {
                                         {
                                             Worker: {
                                                 User: "Работник 1",
-                                                Role: Worker
+                                                Role: 'Worker'
                                             },
                                             Status: "done",
                                             timestart: -8585237747914745678,
@@ -322,7 +322,7 @@ let localItems = {
                                         {
                                             Worker: {
                                                 User: "Работник 2",
-                                                Role: Worker
+                                                Role: 'Worker'
                                             },
                                             Status: "inwork",
                                             timestart: -8585237744765724927,
@@ -341,56 +341,56 @@ let localItems = {
                                     Fields: null,
                                     Notes: [
                                         {
-                                            "StartTime": -8585237748141766396,
-                                            "Text": {
-                                                "Links": [],
-                                                "Messages": [
+                                            StartTime: -8585237748141766396,
+                                            Text: {
+                                                Links: [],
+                                                Messages: [
                                                     "2222222222222222222222222222",
                                                     ""
                                                 ]
                                             },
-                                            "Audio": {
-                                                "Links": [
+                                            Audio: {
+                                                Links: [
                                                     "C:/Users/Ogreb/AppData/LocalLow/petrosoft/Klimov menu systems\\audio_03_03_2023_11_28_3594.wav"
                                                 ],
-                                                "Messages": [
+                                                Messages: [
                                                     "11111111111111111111111111111111",
                                                     ""
                                                 ]
                                             },
-                                            "Video": {
-                                                "Links": [],
-                                                "Messages": []
+                                            Video: {
+                                                Links: [],
+                                                Messages: []
                                             },
-                                            "Photo": {
-                                                "Links": [],
-                                                "Messages": [
+                                            Photo: {
+                                                Links: [],
+                                                Messages: [
                                                     ""
                                                 ]
                                             }
                                         },
                                         {
-                                            "StartTime": -8585237744765724927,
-                                            "Text": {
-                                                "Links": [],
-                                                "Messages": [
+                                            StartTime: -8585237744765724927,
+                                            Text: {
+                                                Links: [],
+                                                Messages: [
                                                     "2222222222222222222222222222",
                                                     ""
                                                 ]
                                             },
-                                            "Audio": {
-                                                "Links": [],
-                                                "Messages": [
+                                            Audio: {
+                                                Links: [],
+                                                Messages: [
                                                     ""
                                                 ]
                                             },
-                                            "Video": {
-                                                "Links": [],
-                                                "Messages": []
+                                            Video: {
+                                                Links: [],
+                                                Messages: []
                                             },
-                                            "Photo": {
-                                                "Links": [],
-                                                "Messages": []
+                                            Photo: {
+                                                Links: [],
+                                                Messages: []
                                             }
                                         }
                                     ]
@@ -404,7 +404,7 @@ let localItems = {
                                         {
                                             Worker: {
                                                 User: "Работник 1",
-                                                Role: Worker
+                                                Role: 'Worker'
                                             },
                                             Status: "inwork",
                                             timestart: -8585237747885257179,
@@ -414,25 +414,25 @@ let localItems = {
                                     Fields: null,
                                     Notes: [
                                         {
-                                            "StartTime": -8585237747885257179,
-                                            "Text": {
-                                                "Links": [],
-                                                "Messages": [
+                                            StartTime: -8585237747885257179,
+                                            Text: {
+                                                Links: [],
+                                                Messages: [
                                                     "1111111111111111111111111111111111111",
                                                     ""
                                                 ]
                                             },
-                                            "Audio": {
-                                                "Links": [],
-                                                "Messages": []
+                                            Audio: {
+                                                Links: [],
+                                                Messages: []
                                             },
-                                            "Video": {
-                                                "Links": [],
-                                                "Messages": []
+                                            Video: {
+                                                Links: [],
+                                                Messages: []
                                             },
-                                            "Photo": {
-                                                "Links": [],
-                                                "Messages": []
+                                            Photo: {
+                                                Links: [],
+                                                Messages: []
                                             }
                                         }
                                     ]
@@ -485,7 +485,7 @@ let localItems = {
                                         {
                                             Worker: {
                                                 User: "Работник 2",
-                                                Role: Worker
+                                                Role: 'Worker'
                                             },
                                             Status: "inwork",
                                             timestart: -8585237742238531220,
@@ -494,7 +494,7 @@ let localItems = {
                                         {
                                             Worker: {
                                                 User: "Работник 2",
-                                                Role: Worker
+                                                Role: 'Worker'
                                             },
                                             Status: "stop",
                                             timestart: -8585237742192272561,
@@ -503,16 +503,16 @@ let localItems = {
                                         {
                                             Worker: {
                                                 User: "Работник 2",
-                                                Role: Worker
+                                                Role: 'Worker'
                                             },
-                                            Status: Failure,
+                                            Status: 'Failure',
                                             timestart: -8585237742000594637,
                                             timeend: -8585237742000544624
                                         },
                                         {
                                             Worker: {
                                                 User: "Работник 2",
-                                                Role: Worker
+                                                Role: 'Worker'
                                             },
                                             Status: "inwork",
                                             timestart: -8585237742000544624,
@@ -531,7 +531,7 @@ let localItems = {
                                         {
                                             Worker: {
                                                 User: "Работник 1",
-                                                Role: Worker
+                                                Role: 'Worker'
                                             },
                                             Status: "inwork",
                                             timestart: -8585237747737822620,
@@ -540,16 +540,16 @@ let localItems = {
                                         {
                                             Worker: {
                                                 User: "Работник 1",
-                                                Role: Worker
+                                                Role: 'Worker'
                                             },
-                                            Status: Failure,
+                                            Status: 'Failure',
                                             timestart: -8585237747683972238,
                                             timeend: -8585237744967884337
                                         },
                                         {
                                             Worker: {
                                                 User: "Работник 1",
-                                                Role: Worker
+                                                Role: 'Worker'
                                             },
                                             Status: "inwork",
                                             timestart: -8585237744967884337,
@@ -558,7 +558,7 @@ let localItems = {
                                         {
                                             Worker: {
                                                 User: "Работник 2",
-                                                Role: Worker
+                                                Role: 'Worker'
                                             },
                                             Status: "done",
                                             timestart: -8585237744877734757,
@@ -567,7 +567,7 @@ let localItems = {
                                         {
                                             Worker: {
                                                 User: "Работник 2",
-                                                Role: Worker
+                                                Role: 'Worker'
                                             },
                                             Status: "check",
                                             timestart: -8585237741945362139,
@@ -577,25 +577,25 @@ let localItems = {
                                     Fields: null,
                                     Notes: [
                                         {
-                                            "StartTime": -8585237744967884337,
-                                            "Text": {
-                                                "Links": [],
-                                                "Messages": [
+                                            StartTime: -8585237744967884337,
+                                            Text: {
+                                                Links: [],
+                                                Messages: [
                                                     "2222222222222222222",
                                                     ""
                                                 ]
                                             },
-                                            "Audio": {
-                                                "Links": [],
-                                                "Messages": []
+                                            Audio: {
+                                                Links: [],
+                                                Messages: []
                                             },
-                                            "Video": {
-                                                "Links": [],
-                                                "Messages": []
+                                            Video: {
+                                                Links: [],
+                                                Messages: []
                                             },
-                                            "Photo": {
-                                                "Links": [],
-                                                "Messages": []
+                                            Photo: {
+                                                Links: [],
+                                                Messages: []
                                             }
                                         }
                                     ]
@@ -615,7 +615,7 @@ let localItems = {
                 {
                     Worker: {
                         User: "Работник 1",
-                        Role: Worker
+                        Role: 'Worker'
                     },
                     Status: "inwork",
                     timestart: -8585237747503830973,
@@ -640,7 +640,7 @@ let localItems = {
                     timeend: 0
                 }
             ],
-            "Stages": [
+            Stages: [
                 {
                     Name: "Этап 1.  Сборка осевого компрессора",
                     Failure: 0,
@@ -649,7 +649,7 @@ let localItems = {
                         {
                             Worker: {
                                 User: "Работник 1",
-                                Role: Worker
+                                Role: 'Worker'
                             },
                             Status: "inwork",
                             timestart: -8585237747503830973,
@@ -684,7 +684,7 @@ let localItems = {
                                 {
                                     Worker: {
                                         User: "Работник 1",
-                                        Role: Worker
+                                        Role: 'Worker'
                                     },
                                     Status: "inwork",
                                     timestart: -8585237747503830973,
@@ -693,7 +693,7 @@ let localItems = {
                                 {
                                     Worker: {
                                         User: "Работник 1",
-                                        Role: Worker
+                                        Role: 'Worker'
                                     },
                                     Status: "done",
                                     timestart: -8585237747322238257,
@@ -728,7 +728,7 @@ let localItems = {
                                         {
                                             Worker: {
                                                 User: "Работник 1",
-                                                Role: Worker
+                                                Role: 'Worker'
                                             },
                                             Status: "inwork",
                                             timestart: -8585237747503830973,
@@ -737,7 +737,7 @@ let localItems = {
                                         {
                                             Worker: {
                                                 User: "Работник 1",
-                                                Role: Worker
+                                                Role: 'Worker'
                                             },
                                             Status: "done",
                                             timestart: -8585237747492578460,
@@ -765,7 +765,7 @@ let localItems = {
                                         {
                                             Worker: {
                                                 User: "Работник 1",
-                                                Role: Worker
+                                                Role: 'Worker'
                                             },
                                             Status: "inwork",
                                             timestart: -8585237747332160494,
@@ -774,7 +774,7 @@ let localItems = {
                                         {
                                             Worker: {
                                                 User: "Работник 1",
-                                                Role: Worker
+                                                Role: 'Worker'
                                             },
                                             Status: "done",
                                             timestart: -8585237747322238257,
@@ -816,7 +816,7 @@ let localItems = {
                         {
                             Worker: {
                                 User: "Работник 1",
-                                Role: Worker
+                                Role: 'Worker'
                             },
                             Status: "inwork",
                             timestart: -8585237745187374695,
@@ -842,7 +842,7 @@ let localItems = {
                                 {
                                     Worker: {
                                         User: "Работник 1",
-                                        Role: Worker
+                                        Role: 'Worker'
                                     },
                                     Status: "inwork",
                                     timestart: -8585237745187374695,
@@ -877,7 +877,7 @@ let localItems = {
                                         {
                                             Worker: {
                                                 User: "Работник 1",
-                                                Role: Worker
+                                                Role: 'Worker'
                                             },
                                             Status: "inwork",
                                             timestart: -8585237745187374695,
@@ -914,7 +914,7 @@ let localItems = {
                                         {
                                             Worker: {
                                                 User: "Работник 2",
-                                                Role: Worker
+                                                Role: 'Worker'
                                             },
                                             Status: "inwork",
                                             timestart: -8585237742299949484,
@@ -923,7 +923,7 @@ let localItems = {
                                         {
                                             Worker: {
                                                 User: "Работник 2",
-                                                Role: Worker
+                                                Role: 'Worker'
                                             },
                                             Status: "done",
                                             timestart: -8585237742293746344,
@@ -953,11 +953,11 @@ let localItems = {
         }
     ],
     Fields: [],
-    "CurChapterIndex": 1,
-    "CurStageIndex": 1,
-    "CurOperationIndex": 0,
-    "CurStepIndex": 0,
-    "CurentStep": {
+    CurChapterIndex: 1,
+    CurStageIndex: 1,
+    CurOperationIndex: 0,
+    CurStepIndex: 0,
+    CurentStep: {
         Name: "Operation 5_1",
         Tag: "Операция 5",
         Failure: 0,
@@ -966,7 +966,7 @@ let localItems = {
             {
                 Worker: {
                     User: "Работник 1",
-                    Role: Worker
+                    Role: 'Worker'
                 },
                 Status: "inwork",
                 timestart: -8585237748141766396,
@@ -975,7 +975,7 @@ let localItems = {
             {
                 Worker: {
                     User: "Работник 1",
-                    Role: Worker
+                    Role: 'Worker'
                 },
                 Status: "done",
                 timestart: -8585237747914745678,
@@ -984,7 +984,7 @@ let localItems = {
             {
                 Worker: {
                     User: "Работник 2",
-                    Role: Worker
+                    Role: 'Worker'
                 },
                 Status: "inwork",
                 timestart: -8585237744765724927,
@@ -1003,64 +1003,64 @@ let localItems = {
         Fields: null,
         Notes: [
             {
-                "StartTime": -8585237748141766396,
-                "Text": {
-                    "Links": [],
-                    "Messages": [
+                StartTime: -8585237748141766396,
+                Text: {
+                    Links: [],
+                    Messages: [
                         "2222222222222222222222222222",
                         ""
                     ]
                 },
-                "Audio": {
-                    "Links": [
+                Audio: {
+                    Links: [
                         "C:/Users/Ogreb/AppData/LocalLow/petrosoft/Klimov menu systems\\audio_03_03_2023_11_28_3594.wav"
                     ],
-                    "Messages": [
+                    Messages: [
                         "11111111111111111111111111111111",
                         ""
                     ]
                 },
-                "Video": {
-                    "Links": [],
-                    "Messages": []
+                Video: {
+                    Links: [],
+                    Messages: []
                 },
-                "Photo": {
-                    "Links": [],
-                    "Messages": [
+                Photo: {
+                    Links: [],
+                    Messages: [
                         ""
                     ]
                 }
             },
             {
-                "StartTime": -8585237744765724927,
-                "Text": {
-                    "Links": [],
-                    "Messages": [
+                StartTime: -8585237744765724927,
+                Text: {
+                    Links: [],
+                    Messages: [
                         "2222222222222222222222222222",
                         ""
                     ]
                 },
-                "Audio": {
-                    "Links": [],
-                    "Messages": [
+                Audio: {
+                    Links: [],
+                    Messages: [
                         ""
                     ]
                 },
-                "Video": {
-                    "Links": [],
-                    "Messages": []
+                Video: {
+                    Links: [],
+                    Messages: []
                 },
-                "Photo": {
-                    "Links": [],
-                    "Messages": []
+                Photo: {
+                    Links: [],
+                    Messages: []
                 }
             }
         ]
     },
     LastStatus: "inwork",
-    "LastWorker": "Проверяющий 1",
-    "LastWorkerRole": "specialist",
-    "LastError": {
+    LastWorker: "Проверяющий 1",
+    LastWorkerRole: "specialist",
+    LastError: {
         ID: 3,
         Title: "Ожидание ДСЕ (дефицит) ",
         Description: "Невозможность продолжения сборочного/испытательного процессов по дефициту двигателей собственного производства "
